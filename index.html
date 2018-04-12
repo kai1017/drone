@@ -398,13 +398,13 @@
         gauge.value(data[i].Speed*10);
         var inter = setInterval(function() {
                 updateData();
-        }, 100); 
+        }, 82); 
         function updateData() {
             i=i+1;
             gauge.value(data[i].Speed*10);
             segDisplay.value(Math.floor(data[i].Speed*10));
-            if(i>=275){
-                i=i-275;
+            if(i>=280){
+                i=i-280;
             }
         }
 
